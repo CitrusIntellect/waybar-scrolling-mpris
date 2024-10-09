@@ -167,10 +167,10 @@ int main(int argc, const char* argv[])
             switch (status)
             {
             case PLAYER_PAUSED:
-                printf("⏸  ");
+                printf("");
                 break;
             case PLAYER_PLAYING:
-                printf("▶  ");
+                printf("");
                 break;
             };
 
